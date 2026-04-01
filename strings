@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+	{
+	char str1[100],str2[100],copystr[100];
+	int len1,len2,cmp;
+
+	printf("enter first string:");
+	gets(str1);
+	printf("enter second string:");
+	gets(str2);
+	len1=strlen(str1);
+	len2=strlen(str2);
+
+	printf("length of the first string:%d\n",len1);
+	printf("length of the second string:%d\n",len2);
+	strcpy(copystr,str1);
+	printf("%s\n",copystr);
+	strcpy(copystr,str2);
+printf(“%s\n”,copystr);
+
+	cmp=strcmp(str1,str2);
+	if(cmp==0)
+	{
+	printf("strings are equal\n");
+	}
+	else
+	{
+	printf("strings are not equal\n");
+	}
+	strcat(str1,str2);
+	printf("%s\n",str1);
+	return 0;
+	}
+
+
