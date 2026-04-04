@@ -1,13 +1,13 @@
-#include &lt;stdio.h&gt;
+#include <stdio.h>
 int fibonacci(int n); 
 int main()
 {
 int n, i;
-printf(&quot;Enter number of terms: &quot;);
-scanf(&quot;%d&quot;, &amp;n);
-printf(&quot;Fibonacci Series: &quot;);
-for (i = 0; i &lt; n; i++) {
-printf(&quot;%d &quot;, fibonacci(i)); 
+printf("Enter number of terms:");
+scanf("%d", &n);
+printf("Fibonacci Series: ");
+for (i = 0; i < n; i++) {
+printf("%d", fibonacci(i)); 
 }
 return 0;
 }
