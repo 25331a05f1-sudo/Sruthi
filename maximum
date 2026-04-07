@@ -6,5 +6,6 @@ printf("enter three numbers:");
 scanf("%d %d %d",&a,&b,&c);
 max=(a>b&&a>c)?a:(b>c?b:c);
 printf("maximum number is:%d\n",max);
+printf("25331A05F1");
 return 0;
 }
