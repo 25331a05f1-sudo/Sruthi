@@ -29,7 +29,7 @@ int main() {
 
     printf("Array after realloc:\n");
     for(i = 0; i < n; i++) {
-        printf("%d ", ptr[i]);
+        printf("%d\n", ptr[i]);
     }
 
     free(ptr);
