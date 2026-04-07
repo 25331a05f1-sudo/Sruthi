@@ -12,11 +12,13 @@ void displayArray(int arr[], int size)
 {
 int i;
 printf("Array elements are:\n");
-for (i = 0; i &lt; size; i++)
+for (i = 0; i < size; i++)
 {
 printf("%d\n", arr[i]);
 }
 printf("\n");
+printf("25331A05F1");
 }
+
 
 
