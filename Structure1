@@ -1,0 +1,20 @@
+#include<stdio.h>
+struct structure
+	{
+	int a;
+	float b;
+	char name[20];
+	};
+	int main()
+	{
+	struct structure s;
+	printf("enter a value:");
+	scanf("%d",&s.a);
+	printf("enter b value:");
+	scanf("%f",&s.b);
+	printf("enter a name:");
+	scanf("%s",s.name);
+	printf("a=%d\n b=%f\n name=%s\n",s.a,s.b,s.name);
+	printf("25331A05F1");
+	return 0;
+	}
